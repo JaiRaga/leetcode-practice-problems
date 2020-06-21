@@ -1,3 +1,5 @@
+// flattten the array to 1-d array using recursion
+
 function flatten(data) {
   if (!Array.isArray(data)) return [data];
   let elements = [];
